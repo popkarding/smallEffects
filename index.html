@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Fsvg.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="items">
+			<div class="item">
+				<svg preserveAspectRatio="xMidYMid slice" viewbox="0 0 300 200">
+					<defs>
+						<!--<clipPath id="clip-0">-->
+							<!--<circle cx="0" cy="0" r="150px" fill="#000"></circle>-->
+						<!--</clipPath>-->
+						<clipPath id="clip-0">
+							<circle cx="0" cy="0" r="150px" fill="#000"></circle>
+						</clipPath>
+					</defs>
+					<text text-anchor="middle" dominant-baseline="middle" class="svg-text" dy=".3em" x="50%" y="50%">X-RAYS</text>
+					<g clip-path="url(#clip-0)">
+						<image height="100%" width="100%" preserveAspectRatio="xMinYMin slice" xlink:href="i-xrays.png"></image>
+						<text text-anchor="middle" dominant-baseline="middle" class="svg-masked-text" dy=".3em" x="50%" y="50%" >Ftext-ray</text>
+					</g>
+				</svg>
+			</div>
+			</div>
+		</div>
+		
+	</body>
+	<script src="Fsvg.js"></script>
+</html>
